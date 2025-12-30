@@ -1,0 +1,41 @@
+# OS Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment
+.env
+.env.local
+
+# Database backups
+*.sql
+database_backup/
+
+# Logs
+*.log
+error_log
+access_log
+
+# Temporary files
+*.tmp
+temp/
+cache/
+
+# Node modules (if using)
+node_modules/
+package-lock.json
+
+# Sensitive files
+config_local.php
+
+# IDE specific
+.phpstorm.meta.php
+_ide_helper.php
